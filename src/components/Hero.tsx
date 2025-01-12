@@ -1,5 +1,6 @@
 import { Poppins } from 'next/font/google'
 import Image from 'next/image'
+import Link from 'next/link';
 import React from 'react'
 
 const poppins = Poppins({ subsets: ['latin'], weight: ["400"] })
@@ -28,7 +29,7 @@ const Hero = () => {
                 </p>
 
                 <button className="text-[16px] font-bold rounded-xl bg-[#602ad4] text-white px-[72px] w-fit py-[15px] hover:bg-red-800 cursor-pointer">
-                   Read Now
+                  <Link href={'/Blog'}> Read Now</Link>
                 </button>
             </div>
         </div>

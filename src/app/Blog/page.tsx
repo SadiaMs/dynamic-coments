@@ -25,9 +25,9 @@ const Blog = () => {
             {/* Blog Card 1 */}
             <div className="p-4 md:w-1/3 ">
               <div className="h-full border-2  border-red-800 border-opacity-60 rounded-lg overflow-hidden hover:bg-[#ddeac3]">
-              <Image width={400} height={400}
+            <Image width={400} height={400} 
                   className="w-full h-64 object-cover object-center mx-auto transition-transform duration-300 ease-in-out hover:scale-110"
-                  src={"/a.jpg"}
+                    src={"/a.jpg"}
                   alt="blog"
                 />
                 <div className="p-6 ">
@@ -35,8 +35,8 @@ const Blog = () => {
                   Fairytails
                   </p>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3 hover:underline">
-                    <Link href='Blog/StoryTime1'> Read More</Link>
-                  </h1>
+                  <Link href={'Blog/FairyTails 1/once-upon-a-time-this-is-the-1st-story-for-kids'}>
+                  Read More</Link>            </h1>
                   <div className="flex items-center text-gray-600 text-sm space-x-2">
                     <RxClock className="text-lg" />
                     <span>5 Min</span>
@@ -60,7 +60,9 @@ const Blog = () => {
                   Fairytails
                   </p>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3 hover:underline">
-                  <Link href='Blog/StoryTime2'> Read More</Link>
+                  <Link href={'Blog/FairyTails2/once-upon-a-time-this-is-the-2nd-story-for-kids'}>
+                  Read More</Link>
+                
                   </h1>
                   <div className="flex items-center text-gray-600 text-sm space-x-2">
                     <RxClock className="text-lg" />
@@ -85,7 +87,8 @@ const Blog = () => {
                   Fairytails
                   </p>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3 hover:underline">
-                  <Link href='Blog/StoryTime3'> Read More</Link>
+                   <Link href={'Blog/FairyTails 3/once-upon-a-time-this-is-the-3rd-story-for-kids'}>
+                  Read More</Link>    
                   </h1>
                   <div className="flex items-center text-gray-600 text-sm space-x-2">
                     <RxClock className="text-lg" />
@@ -110,7 +113,9 @@ const Blog = () => {
                   Fairytails
                   </p>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3 hover:underline">
-                  <Link href='Blog/StoryTime4'> Read More</Link>
+                  <Link href={'Blog/FairyTails 4/once-upon-a-time-this-is-the-4th-story-for-kids'}>
+                  Read More</Link>   
+
                   </h1>
                   <div className="flex items-center text-gray-600 text-sm space-x-2">
                     <RxClock className="text-lg" />
@@ -135,7 +140,8 @@ const Blog = () => {
                   Fairytails
                   </p>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3 hover:underline">
-                  <Link href='Blog/StoryTime5'> Read More</Link>
+                  <Link href={'Blog/FairyTails5/once-upon-a-time-this-is-the-fifth-story-for-kids'}>
+                  Read More</Link>    
                   </h1>
                   <div className="flex items-center text-gray-600 text-sm space-x-2">
                     <RxClock className="text-lg" />
@@ -160,8 +166,10 @@ const Blog = () => {
                   Fairytails
                   </p>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3 hover:underline">
-                  <Link href='Blog/6'> Read More</Link>
+                  <Link href={'Blog/FairyTails 6/once-upon-a-time-this-is-the-6-story-for-kids'}>
+                  Read More</Link>    
                   </h1>
+              
                   <div className="flex items-center text-gray-600 text-sm space-x-2">
                     <RxClock className="text-lg" />
                     <span>5 Min</span>
@@ -185,8 +193,10 @@ const Blog = () => {
                   Fairytails
                   </p>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3 hover:underline">
-                  <Link href='Blog/7'> Read More</Link>
+                  <Link href={'Blog/FairyTails 7/once-upon-a-time-this-is-the-7-story-for-kids'}>
+                  Read More</Link>    
                   </h1>
+               
                   <div className="flex items-center text-gray-600 text-sm space-x-2">
                     <RxClock className="text-lg" />
                     <span>5 Min</span>
@@ -210,7 +220,8 @@ const Blog = () => {
                   Fairytails
                   </p>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3 hover:underline">
-                  <Link href='Blog/8'> Read More</Link>
+                  <Link href={'Blog/FairyTails 8/once-upon-a-time-this-is-the-8th-story-for-kids'}>
+                  Read More</Link>    
                   </h1>
                   <div className="flex items-center text-gray-600 text-sm space-x-2">
                     <RxClock className="text-lg" />
@@ -235,7 +246,9 @@ const Blog = () => {
                   Fairytails
                   </p>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3 hover:underline">
-                  <Link href='Blog/9'> Read More</Link>
+                  <Link href={'Blog/FairyTails 9/once-upon-a-time-this-is-the-9th-story-for-kids'}>
+                  Read More</Link>    
+                  
                   </h1>
                   <div className="flex items-center text-gray-600 text-sm space-x-2">
                     <RxClock className="text-lg" />
@@ -260,7 +273,8 @@ const Blog = () => {
                   Fairytails
                   </p>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3 hover:underline">
-                  <Link href='Blog/10'> Read More</Link>
+                  <Link href={'Blog/FairyTails 10/once-upon-a-time-this-is-the-10th-story-for-kids'}>
+                  Read More</Link>    
                   </h1>
                   <div className="flex items-center text-gray-600 text-sm space-x-2">
                     <RxClock className="text-lg" />
@@ -287,9 +301,9 @@ const Blog = () => {
                   <p className="leading-relaxed mb-3">
                     Fairytails
                   </p>
-                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3 hover:underline">
-                  <Link href='Blog/11'> Read More</Link>
-                  </h1>
+                  <h1 className="title-font text-lg font-medium text-gray-900 mb-3 hover:underline"></h1>
+                  <Link href={'Blog/FairyTails 11/once-upon-a-time-this-is-the-11th-story-for-kids'}>
+                  Read More</Link>    
                   <div className="flex items-center text-gray-600 text-sm space-x-2">
                     <RxClock className="text-lg" />
                     <span>5 Min</span>
@@ -315,7 +329,8 @@ const Blog = () => {
                   Fairytails
                   </p>
                   <h1 className="title-font text-lg font-medium text-gray-900 mb-3 hover:underline">
-                  <Link href='Blog/12'> Read More</Link>
+                  <Link href={'Blog/FairyTails 12/once-upon-a-time-this-is-the-12th-story-for-kids'}>
+                  Read More</Link>    
                   </h1>
                   <div className="flex items-center text-gray-600 text-sm space-x-2">
                     <RxClock className="text-lg" />

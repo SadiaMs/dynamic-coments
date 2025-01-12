@@ -4,11 +4,15 @@ import Hero from "@/components/Hero";
 import Linkdin from "@/components/Linkdin";
 
 
+
+
 export default function Home() {
   return (
    <div>
     <Hero />
+ 
     <Bee />
+   
     <Details />
     <Linkdin />
    </div>
